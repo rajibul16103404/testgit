@@ -1,0 +1,111 @@
+.item img{
+    width: 230px;
+    height: 330px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 10px;
+    object-fit: cover;
+}
+.img img:nth-child(4){
+    margin-left: 25px;
+}
+.img img:nth-child(5){
+    margin-left: 35px;
+}
+.img{
+    display: flex;
+    overflow: hidden;
+}
+.item{
+    width: 85%;
+    overflow: hidden;
+    margin: auto;
+}
+.recommended{
+    margin-top: 2%;
+}
+.name{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.name h6{
+    margin: 2px 100px;
+    text-align: center;
+    width: 100%;
+    color: #576574;
+}
+.name h6:nth-child(4){
+    margin-left: 125px;
+}
+.name h6:nth-child(5){
+    margin-left: 135px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.left1 h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px;
+}
+.right1{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.right1 .h4{
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #FB691F;
+}
+.right1 .h4:active{
+    background-color: #FB691F;
+}
+.right1 .aright{
+    color: #576574;
+}
+.right1 .aleft{
+    color: #CBCFD4;
+}
+input[type='file'], .text{
+    width: 100%;
+    color: #FB691F;
+    background-color: #CBCFD4;
+    border: none;
+    outline: none;
+    margin: 10px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.text{
+    padding: 20px;
+}
+input[type=file]::file-selector-button {
+    padding: 20px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: #FB691F;
+    align-items: center;
+    margin-right: 15px;
+}
+.add{
+    width: 100%;
+    background: #CBCFD4;
+    color: #FB691F;
+    padding: 20px;
+    border: 2px solid#FB691F;
+}

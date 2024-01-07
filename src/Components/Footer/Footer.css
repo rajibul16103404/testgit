@@ -1,0 +1,132 @@
+.body{
+    width: 100%;
+    height: 20%;
+    background-color: #F99F1C;
+    transform: scale(1.25);
+    padding: 1% 15%;
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.left_foo{
+    width: 70%;
+    background: transparent;
+    display: grid;
+    padding: 5%;
+}
+.top{
+    width: 100%;
+    background: transparent;
+    padding: 5px;
+    padding-bottom: 0;
+}
+.content{
+    width: 90%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: #EEEFF0;
+    padding: 3px;
+}
+.content input{
+    width: 70%;
+    font-size: 12px;
+    padding: 5px 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+.content button{
+    width: 29.5%;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #FC6011;
+    color: #EEEFF0;
+    padding: 5px;
+}
+.arrow{
+    background: transparent;
+    color: #EEEFF0;
+    margin-top: -2px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.lbottom{
+    background: transparent;
+}
+.lbottom h3{
+    background-color: transparent;
+    font-family: 'Baloo Thambi 2', system-ui;
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+}
+.lbottom h3 span{
+    background: transparent;
+    color: #FC6011;
+}
+.lbottom p{
+    background: transparent;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.lbottom p .copy{
+    background: transparent;
+    margin-top: -3px;
+}
+.rbottom{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    align-items: flex-end;
+    padding-bottom: 45px;
+}
+.rbottom .icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+    background: #FEDDBA;
+}
+.rbottom .icon .item{
+    background: transparent;
+    color: #FC6011;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.right_foo{
+    width: 30%;
+    background-color: transparent;
+}
+.right_foo img{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

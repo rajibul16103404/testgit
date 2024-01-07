@@ -1,0 +1,119 @@
+.container{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Sans Mongolian', sans-serif;
+}
+.left h3{
+    font-family: 'Baloo Thambi 2', system-ui;
+    font-size: 40px;
+    font-weight: 700;
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.middle .one{
+    width: 80%;
+    position: relative;
+}
+.search{
+    color: #FE9D8B;
+    font-size: 22px;
+    position: absolute;
+    background: transparent;
+    left: 3%;
+    top: 35%;
+}
+.middle .one input{
+    width: 100%;
+    padding: 11px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding-left: 50px;
+    line-height: 5px;
+}
+.middle .two{
+    width: 30%;
+    margin-left: 1%;
+    padding: 0;
+}
+.middle .two .menu{
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+    
+}
+.middle .two .menu #dropdown-basic{
+    padding: 12px 20px;
+    font-size: 17px;
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 700;
+}
+.middle .two .menu #dropdown-basic .down{
+    background-color: transparent;
+    color: #FD6011;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+.menu .drop{
+    width: 100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.menu .drop .item{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #415163;
+}
+.menu .drop .item:hover{
+    background-color: #E7E9EC;
+    color: #FD6011;
+}
+.dropdown-toggle::after{
+    border: none;
+}
+
+.right{
+    background-color: #FD6011;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    height: 55px;
+    width: 60px;
+    padding: 10px;
+}
+.right .icon{
+    font-size: 30px;
+    background: transparent;
+    color: #EEEFF0;
+    font-weight: 900;
+}
